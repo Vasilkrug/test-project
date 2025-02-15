@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Works</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        body {
+            max-width: 1320px;
+            margin: 0 auto;
+            font-family: "Comic Sans MS", sans-serif;
+        }
+
+        a {
+            color: #003A90;
+            text-decoration: none;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+
+        section {
+            border-top: 3px solid #009DF5;
+            margin-top: 30px;
+            padding: 50px 0;
+        }
+
+        h2 {
+            color: #009DF5;
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+        .works-list {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .work-item {
+            color: #003A90;
+        }
+
+        .home-link {
+            position: relative;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+
+        .home-link:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 7px;
+            left: -14px;
+            width: 10px;
+            height: 10px;
+            border-top: 4px solid #003A90;
+            border-right: 4px solid #003A90;
+            border-radius: 4px;
+            transform: rotate(-135deg);
+        }
+
+        .home-link:hover::before {
+            border-top: 4px solid #009DF5;
+            border-right: 4px solid #009DF5;
+        }
+
+        .home-link:hover {
+            color: #009DF5;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <a class="home-link" href="../index.html">Home</a>
+</header>
+<section class="works">
+    <div class="works-block">
+        <h2>THINGS I HAVE WORKED ON</h2>
+        <ul class="works-list">
+            <li class="work-item">
+                <img src="../assets/images/1.png" alt="">
+                <p>Frederick the Monster, Sept. 2022</p>
+            </li>
+            <li class="work-item">
+                <img src="../assets/images/2.png" alt="">
+                <p>Pugs, Trees, and Tomatoes, Oct. 2022</p>
+            </li>
+            <li class="work-item">
+                <img src="../assets/images/3.png" alt="">
+                <p>Costume Party, Oct. 2022</p>
+            </li>
+            <li class="work-item">
+                <img src="../assets/images/4.png" alt="">
+                <p>Fruit Still Life, Nov. 2022</p>
+            </li>
+            <li class="work-item">
+                <img src="../assets/images/5.png" alt="">
+                <p>Mr. and Mrs. Liebgott, Dec. 2022</p>
+            </li>
+            <li class="work-item">
+                <img src="../assets/images/6.png" alt="">
+                <p>Three Stooges Collage Drawing, Feb. 2023</p>
+            </li>
+            <li class="work-item">
+                <img src="../assets/images/7.png" alt="">
+                <p>Donut Notan, Mar. 2023</p>
+            </li>
+            <li class="work-item">
+                <img src="../assets/images/8.png" alt="">
+                <p>Imaginary Plant Collage, Apr. 2023</p>
+            </li>
+            <li class="work-item">
+                <img src="../assets/images/9.png" alt="">
+                <p>The Flipping Coin, May 2023</p>
+            </li>
+        </ul>
+    </div>
+</section>
+</body>
+</html>
